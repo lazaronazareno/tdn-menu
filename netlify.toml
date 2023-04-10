@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/questions"
+to = "/.netlify/functions/getData"
+status = 200
