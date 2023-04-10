@@ -3,13 +3,15 @@ import { IQuestion } from "../types";
 export default function Question({
   questions,
   index,
-  onAnswer
+  onAnswer,
+  realAnswer
 }
   :
   {
     questions: IQuestion[];
     index: number;
-    onAnswer: (answer: string) => void
+    onAnswer: (answer: string) => void,
+    realAnswer: string
   }) {
   return (
     <div className="question-container">

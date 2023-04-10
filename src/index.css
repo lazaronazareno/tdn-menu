@@ -94,3 +94,17 @@ button:hover {
   gap: .5rem;
   padding: .5rem;
 }
+
+.correctAnswer, .incorrectAnswer {
+  padding: 1rem;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.correctAnswer {
+  background-color: rgb(74, 255, 74);
+  color: #242424;
+}
+.incorrectAnswer {
+  background-color: rgb(255, 74, 74);
+}
